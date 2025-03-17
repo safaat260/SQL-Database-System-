@@ -13,6 +13,16 @@ Create a new database name “university ”
  8.	Find out the average due of the student.
  9.	Sorting the student table based on the CGPA.
  10.Add a new table of address to student table
+
+ Lab final
+
+ 1.Create table course(course_id int, name varchar, semester varchar, student_id int,teacher_id int)
+ 2.insert 20 random values in course table
+ 3.perform inner join on student and course title
+ 4.perform right join on course and student table
+ 5.perform left join on teacher and course table
+ 6.perform full join on course and teacher table   
+
 */
 
 //database create
@@ -119,3 +129,5 @@ UPDATE student SET address = 'Narail, Saif' WHERE student_id = 138;
 UPDATE student SET address = 'Jessore, Robin' WHERE student_id = 139;
 
 SELECT * FROM student;
+
+
